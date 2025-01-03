@@ -1,9 +1,9 @@
 //your JS code here. If required.
 function removeSelectedOption() {
-	let colorselect = document.getElementById("colorSelect");
+	let colorSelect = document.getElementById("colorSelect");
 
-	if(colorselect.Selectedindex !== -1){
-		colorselect.remove(colorselect.Selectedindex);
+	if(colorSelect.SelectedIndex !== -1){
+		colorSelect.remove(colorSelect.SelectedIndex);
 	}
 	
 }
